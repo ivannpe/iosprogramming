@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12318DAC242AD54F00CF887F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DAB242AD54F00CF887F /* AppDelegate.m */; };
+		12318DAF242AD54F00CF887F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DAE242AD54F00CF887F /* SceneDelegate.m */; };
+		12318DB2242AD54F00CF887F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DB1242AD54F00CF887F /* ViewController.m */; };
+		12318DB5242AD54F00CF887F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12318DB3242AD54F00CF887F /* Main.storyboard */; };
+		12318DB7242AD55300CF887F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12318DB6242AD55300CF887F /* Assets.xcassets */; };
+		12318DBA242AD55300CF887F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12318DB8242AD55300CF887F /* LaunchScreen.storyboard */; };
+		12318DBD242AD55300CF887F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DBC242AD55300CF887F /* main.m */; };
+		12318DC7242AD55400CF887F /* PaddleGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DC6242AD55400CF887F /* PaddleGameTests.m */; };
+		12318DD2242AD55400CF887F /* PaddleGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DD1242AD55400CF887F /* PaddleGameUITests.m */; };
+		12318DE0242AED0E00CF887F /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12318DDF242AED0E00CF887F /* me.jpg */; };
+		12318DE1242AED0E00CF887F /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12318DDF242AED0E00CF887F /* me.jpg */; };
+		12318DE2242AED0E00CF887F /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12318DDF242AED0E00CF887F /* me.jpg */; };
+		12318DE5242AF6FC00CF887F /* ExplanationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DE4242AF6FC00CF887F /* ExplanationViewController.m */; };
+		12318DE6242AF6FC00CF887F /* ExplanationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DE4242AF6FC00CF887F /* ExplanationViewController.m */; };
+		12318DE7242AF6FC00CF887F /* ExplanationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DE4242AF6FC00CF887F /* ExplanationViewController.m */; };
+		12318DEA242AF79000CF887F /* drawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DE9242AF79000CF887F /* drawView.m */; };
+		12318DEB242AF79000CF887F /* drawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DE9242AF79000CF887F /* drawView.m */; };
+		12318DEC242AF79000CF887F /* drawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DE9242AF79000CF887F /* drawView.m */; };
+		12318DEF242AF92E00CF887F /* CGGraphicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DEE242AF92E00CF887F /* CGGraphicViewController.m */; };
+		12318DF0242AF92E00CF887F /* CGGraphicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DEE242AF92E00CF887F /* CGGraphicViewController.m */; };
+		12318DF1242AF92E00CF887F /* CGGraphicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DEE242AF92E00CF887F /* CGGraphicViewController.m */; };
+		12318DF4242AFB0400CF887F /* PaddleGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DF3242AFB0400CF887F /* PaddleGameViewController.m */; };
+		12318DF5242AFB0400CF887F /* PaddleGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DF3242AFB0400CF887F /* PaddleGameViewController.m */; };
+		12318DF6242AFB0400CF887F /* PaddleGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12318DF3242AFB0400CF887F /* PaddleGameViewController.m */; };
+		12318DF8242B1DD500CF887F /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 12318DF7242B1DD500CF887F /* paddle.png */; };
+		12318DF9242B1DD500CF887F /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 12318DF7242B1DD500CF887F /* paddle.png */; };
+		12318DFA242B1DD500CF887F /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 12318DF7242B1DD500CF887F /* paddle.png */; };
+		12318DFC242B1E2A00CF887F /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 12318DFB242B1E2A00CF887F /* ball.png */; };
+		12318DFD242B1E2A00CF887F /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 12318DFB242B1E2A00CF887F /* ball.png */; };
+		12318DFE242B1E2A00CF887F /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 12318DFB242B1E2A00CF887F /* ball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12318DC3242AD55400CF887F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12318D9F242AD54F00CF887F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12318DA6242AD54F00CF887F;
+			remoteInfo = PaddleGame;
+		};
+		12318DCE242AD55400CF887F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12318D9F242AD54F00CF887F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12318DA6242AD54F00CF887F;
+			remoteInfo = PaddleGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12318DA7242AD54F00CF887F /* PaddleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaddleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12318DAA242AD54F00CF887F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12318DAB242AD54F00CF887F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12318DAD242AD54F00CF887F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		12318DAE242AD54F00CF887F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		12318DB0242AD54F00CF887F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12318DB1242AD54F00CF887F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12318DB4242AD54F00CF887F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12318DB6242AD55300CF887F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12318DB9242AD55300CF887F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12318DBB242AD55300CF887F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12318DBC242AD55300CF887F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12318DC2242AD55400CF887F /* PaddleGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaddleGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12318DC6242AD55400CF887F /* PaddleGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaddleGameTests.m; sourceTree = "<group>"; };
+		12318DC8242AD55400CF887F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12318DCD242AD55400CF887F /* PaddleGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaddleGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12318DD1242AD55400CF887F /* PaddleGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaddleGameUITests.m; sourceTree = "<group>"; };
+		12318DD3242AD55400CF887F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12318DDF242AED0E00CF887F /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
+		12318DE3242AF6B800CF887F /* ExplanationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExplanationViewController.h; sourceTree = "<group>"; };
+		12318DE4242AF6FC00CF887F /* ExplanationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExplanationViewController.m; sourceTree = "<group>"; };
+		12318DE8242AF77A00CF887F /* drawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawView.h; sourceTree = "<group>"; };
+		12318DE9242AF79000CF887F /* drawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawView.m; sourceTree = "<group>"; };
+		12318DED242AF87200CF887F /* CGGraphicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGGraphicViewController.h; sourceTree = "<group>"; };
+		12318DEE242AF92E00CF887F /* CGGraphicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGGraphicViewController.m; sourceTree = "<group>"; };
+		12318DF2242AFA3D00CF887F /* PaddleGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaddleGameViewController.h; sourceTree = "<group>"; };
+		12318DF3242AFB0400CF887F /* PaddleGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaddleGameViewController.m; sourceTree = "<group>"; };
+		12318DF7242B1DD500CF887F /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
+		12318DFB242B1E2A00CF887F /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12318DA4242AD54F00CF887F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12318DBF242AD55400CF887F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12318DCA242AD55400CF887F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12318D9E242AD54F00CF887F = {
+			isa = PBXGroup;
+			children = (
+				12318DA9242AD54F00CF887F /* PaddleGame */,
+				12318DC5242AD55400CF887F /* PaddleGameTests */,
+				12318DD0242AD55400CF887F /* PaddleGameUITests */,
+				12318DA8242AD54F00CF887F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12318DA8242AD54F00CF887F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12318DA7242AD54F00CF887F /* PaddleGame.app */,
+				12318DC2242AD55400CF887F /* PaddleGameTests.xctest */,
+				12318DCD242AD55400CF887F /* PaddleGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12318DA9242AD54F00CF887F /* PaddleGame */ = {
+			isa = PBXGroup;
+			children = (
+				12318DAA242AD54F00CF887F /* AppDelegate.h */,
+				12318DAB242AD54F00CF887F /* AppDelegate.m */,
+				12318DAD242AD54F00CF887F /* SceneDelegate.h */,
+				12318DAE242AD54F00CF887F /* SceneDelegate.m */,
+				12318DB0242AD54F00CF887F /* ViewController.h */,
+				12318DB1242AD54F00CF887F /* ViewController.m */,
+				12318DE3242AF6B800CF887F /* ExplanationViewController.h */,
+				12318DE4242AF6FC00CF887F /* ExplanationViewController.m */,
+				12318DE8242AF77A00CF887F /* drawView.h */,
+				12318DE9242AF79000CF887F /* drawView.m */,
+				12318DED242AF87200CF887F /* CGGraphicViewController.h */,
+				12318DEE242AF92E00CF887F /* CGGraphicViewController.m */,
+				12318DF2242AFA3D00CF887F /* PaddleGameViewController.h */,
+				12318DF3242AFB0400CF887F /* PaddleGameViewController.m */,
+				12318DB3242AD54F00CF887F /* Main.storyboard */,
+				12318DB6242AD55300CF887F /* Assets.xcassets */,
+				12318DF7242B1DD500CF887F /* paddle.png */,
+				12318DFB242B1E2A00CF887F /* ball.png */,
+				12318DDF242AED0E00CF887F /* me.jpg */,
+				12318DB8242AD55300CF887F /* LaunchScreen.storyboard */,
+				12318DBB242AD55300CF887F /* Info.plist */,
+				12318DBC242AD55300CF887F /* main.m */,
+			);
+			path = PaddleGame;
+			sourceTree = "<group>";
+		};
+		12318DC5242AD55400CF887F /* PaddleGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				12318DC6242AD55400CF887F /* PaddleGameTests.m */,
+				12318DC8242AD55400CF887F /* Info.plist */,
+			);
+			path = PaddleGameTests;
+			sourceTree = "<group>";
+		};
+		12318DD0242AD55400CF887F /* PaddleGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12318DD1242AD55400CF887F /* PaddleGameUITests.m */,
+				12318DD3242AD55400CF887F /* Info.plist */,
+			);
+			path = PaddleGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12318DA6242AD54F00CF887F /* PaddleGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12318DD6242AD55400CF887F /* Build configuration list for PBXNativeTarget "PaddleGame" */;
+			buildPhases = (
+				12318DA3242AD54F00CF887F /* Sources */,
+				12318DA4242AD54F00CF887F /* Frameworks */,
+				12318DA5242AD54F00CF887F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaddleGame;
+			productName = PaddleGame;
+			productReference = 12318DA7242AD54F00CF887F /* PaddleGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12318DC1242AD55400CF887F /* PaddleGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12318DD9242AD55400CF887F /* Build configuration list for PBXNativeTarget "PaddleGameTests" */;
+			buildPhases = (
+				12318DBE242AD55400CF887F /* Sources */,
+				12318DBF242AD55400CF887F /* Frameworks */,
+				12318DC0242AD55400CF887F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12318DC4242AD55400CF887F /* PBXTargetDependency */,
+			);
+			name = PaddleGameTests;
+			productName = PaddleGameTests;
+			productReference = 12318DC2242AD55400CF887F /* PaddleGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12318DCC242AD55400CF887F /* PaddleGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12318DDC242AD55400CF887F /* Build configuration list for PBXNativeTarget "PaddleGameUITests" */;
+			buildPhases = (
+				12318DC9242AD55400CF887F /* Sources */,
+				12318DCA242AD55400CF887F /* Frameworks */,
+				12318DCB242AD55400CF887F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12318DCF242AD55400CF887F /* PBXTargetDependency */,
+			);
+			name = PaddleGameUITests;
+			productName = PaddleGameUITests;
+			productReference = 12318DCD242AD55400CF887F /* PaddleGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12318D9F242AD54F00CF887F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ivanna Peña";
+				TargetAttributes = {
+					12318DA6242AD54F00CF887F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					12318DC1242AD55400CF887F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 12318DA6242AD54F00CF887F;
+					};
+					12318DCC242AD55400CF887F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 12318DA6242AD54F00CF887F;
+					};
+				};
+			};
+			buildConfigurationList = 12318DA2242AD54F00CF887F /* Build configuration list for PBXProject "PaddleGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12318D9E242AD54F00CF887F;
+			productRefGroup = 12318DA8242AD54F00CF887F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12318DA6242AD54F00CF887F /* PaddleGame */,
+				12318DC1242AD55400CF887F /* PaddleGameTests */,
+				12318DCC242AD55400CF887F /* PaddleGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12318DA5242AD54F00CF887F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12318DBA242AD55300CF887F /* LaunchScreen.storyboard in Resources */,
+				12318DF8242B1DD500CF887F /* paddle.png in Resources */,
+				12318DFC242B1E2A00CF887F /* ball.png in Resources */,
+				12318DB7242AD55300CF887F /* Assets.xcassets in Resources */,
+				12318DB5242AD54F00CF887F /* Main.storyboard in Resources */,
+				12318DE0242AED0E00CF887F /* me.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12318DC0242AD55400CF887F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12318DE1242AED0E00CF887F /* me.jpg in Resources */,
+				12318DF9242B1DD500CF887F /* paddle.png in Resources */,
+				12318DFD242B1E2A00CF887F /* ball.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12318DCB242AD55400CF887F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12318DE2242AED0E00CF887F /* me.jpg in Resources */,
+				12318DFA242B1DD500CF887F /* paddle.png in Resources */,
+				12318DFE242B1E2A00CF887F /* ball.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12318DA3242AD54F00CF887F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12318DF4242AFB0400CF887F /* PaddleGameViewController.m in Sources */,
+				12318DB2242AD54F00CF887F /* ViewController.m in Sources */,
+				12318DAC242AD54F00CF887F /* AppDelegate.m in Sources */,
+				12318DEA242AF79000CF887F /* drawView.m in Sources */,
+				12318DBD242AD55300CF887F /* main.m in Sources */,
+				12318DE5242AF6FC00CF887F /* ExplanationViewController.m in Sources */,
+				12318DEF242AF92E00CF887F /* CGGraphicViewController.m in Sources */,
+				12318DAF242AD54F00CF887F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12318DBE242AD55400CF887F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12318DE6242AF6FC00CF887F /* ExplanationViewController.m in Sources */,
+				12318DC7242AD55400CF887F /* PaddleGameTests.m in Sources */,
+				12318DF5242AFB0400CF887F /* PaddleGameViewController.m in Sources */,
+				12318DEB242AF79000CF887F /* drawView.m in Sources */,
+				12318DF0242AF92E00CF887F /* CGGraphicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12318DC9242AD55400CF887F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12318DE7242AF6FC00CF887F /* ExplanationViewController.m in Sources */,
+				12318DD2242AD55400CF887F /* PaddleGameUITests.m in Sources */,
+				12318DF6242AFB0400CF887F /* PaddleGameViewController.m in Sources */,
+				12318DEC242AF79000CF887F /* drawView.m in Sources */,
+				12318DF1242AF92E00CF887F /* CGGraphicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12318DC4242AD55400CF887F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12318DA6242AD54F00CF887F /* PaddleGame */;
+			targetProxy = 12318DC3242AD55400CF887F /* PBXContainerItemProxy */;
+		};
+		12318DCF242AD55400CF887F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12318DA6242AD54F00CF887F /* PaddleGame */;
+			targetProxy = 12318DCE242AD55400CF887F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12318DB3242AD54F00CF887F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12318DB4242AD54F00CF887F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12318DB8242AD55300CF887F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12318DB9242AD55300CF887F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12318DD4242AD55400CF887F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12318DD5242AD55400CF887F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12318DD7242AD55400CF887F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAHHS82URL;
+				INFOPLIST_FILE = PaddleGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosprogramming.PaddleGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12318DD8242AD55400CF887F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAHHS82URL;
+				INFOPLIST_FILE = PaddleGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosprogramming.PaddleGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12318DDA242AD55400CF887F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAHHS82URL;
+				INFOPLIST_FILE = PaddleGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosprogramming.PaddleGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaddleGame.app/PaddleGame";
+			};
+			name = Debug;
+		};
+		12318DDB242AD55400CF887F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAHHS82URL;
+				INFOPLIST_FILE = PaddleGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosprogramming.PaddleGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaddleGame.app/PaddleGame";
+			};
+			name = Release;
+		};
+		12318DDD242AD55400CF887F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAHHS82URL;
+				INFOPLIST_FILE = PaddleGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosprogramming.PaddleGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaddleGame;
+			};
+			name = Debug;
+		};
+		12318DDE242AD55400CF887F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NAHHS82URL;
+				INFOPLIST_FILE = PaddleGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosprogramming.PaddleGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaddleGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12318DA2242AD54F00CF887F /* Build configuration list for PBXProject "PaddleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12318DD4242AD55400CF887F /* Debug */,
+				12318DD5242AD55400CF887F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12318DD6242AD55400CF887F /* Build configuration list for PBXNativeTarget "PaddleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12318DD7242AD55400CF887F /* Debug */,
+				12318DD8242AD55400CF887F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12318DD9242AD55400CF887F /* Build configuration list for PBXNativeTarget "PaddleGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12318DDA242AD55400CF887F /* Debug */,
+				12318DDB242AD55400CF887F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12318DDC242AD55400CF887F /* Build configuration list for PBXNativeTarget "PaddleGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12318DDD242AD55400CF887F /* Debug */,
+				12318DDE242AD55400CF887F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12318D9F242AD54F00CF887F /* Project object */;
+}
